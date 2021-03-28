@@ -55,6 +55,75 @@
           li Demanda turística.
     
                 //-  // AQUI HACE FALTA UN CAROUSEL
+    #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')
+      .carousel-indicators
+        button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+        button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
+      .carousel-inner
+        .carousel-item.active
+          figure 
+            .row
+              .col-lg-3
+                img.img-box(src="@/assets/curso/tema-1/svg/img9.svg")
+              .col-lg-9
+                h3 Estructura Turística
+                p Denominada también planta turística hace posible la permanencia del turista o visitante en el lugar de destino. 
+                  b Está conformada por  el conjunto de atractivos turísticos, instalaciones y equipamiento encargados, 
+                  b-none de la prestación de servicios al turista, ofreciendo comodidad en el destino visitado, para satisfacer las necesidades y superar sus expectativas en términos de calidad (Boullon, 2006).
+        .carousel-item
+          figure
+            .row
+              .col-lg-3
+                img.img-box(src="@/assets/curso/tema-1/svg/img10.svg")
+              .col-lg-9
+                h3 Infraestructura turística
+                p Es el conjunto de bienes y servicios con los que cuenta un destino turístico para contribuir a la satisfacción de las necesidades y expectativas de los turistas, 
+                  b facilitando la accesibilidad y desplazamiento al lugar de destino, como vías de comunicación, terminales de transporte 
+                  b-none (aéreo, terrestre, ferroviario, marítimo, fluvial y lacustre), sistemas de comunicación (satelital, telefonía, acceso a la red), sistema de sanidad (acueducto, alcantarillado, recolección de basuras, primeros auxilios y servicios hospitalarios) y servicios de energía eléctrica (red eléctrica, alumbrado público, domiciliario).
+        .carousel-item
+          figure
+            .row
+              .col-lg-3
+                img.img-box(src="@/assets/curso/tema-1/svg/img11.svg")
+              .col-lg-9
+                h3 Superestructura turística
+                p Está conformada por todos los organismos oficiales, mixtos y privados que se encargan de la regulación del Sistema Turístico (normatividad, legislación turística). 
+                  b Con el fin de lograr la optimización, facilitación, producción y venta de los  servicios 
+                  b-none que integran la actividad turística (Ministerio de Industria Comercio y Turismo, Dirección Nacional de Turismo, PROCOLOMBIA, FONTUR, ANATO, ACODRES, clústeres de turismo).
+        .carousel-item
+          figure
+            .row
+              .col-lg-3
+                img.img-box(src="@/assets/curso/tema-1/svg/img12.svg")
+              .col-lg-9
+                h3 Oferta turística
+                p Es el conjunto de productos y servicios asociados a un determinado espacio geográfico y sociocultural, 
+                  b que permite facilitar y propiciar el aprovechamiento de los atractivos turísticos de ese lugar 
+                  b-none y cuyos oferentes pueden  vender en el mercado a un precio  establecido y en un periodo de tiempo determinado, para ser usado o consumido por los turistas.
+        .carousel-item
+          figure
+            .row
+              .col-lg-3
+                img.img-box(src="@/assets/curso/tema-1/svg/img13.svg")
+              .col-lg-9
+                h3 Demanda turística
+                p Se define como el conjunto de turistas que, de forma individual o colectiva, están motivados por una serie de productos o servicios turísticos con el objetivo de cubrir sus necesidades; 
+                  b opera en el contexto de un mercado en el que intervienen diversos prestadores de servicios turísticos 
+                  b-none que ponen a disposición del turista los  servicios y productos que requieren para satisfacer determinadas necesidades (viajes, ocio, vacaciones, esparcimiento, tiempo libre).  
+                br
+                p Desde el punto de vista económico 
+                  b la oferta turística está dada por  bienes o  servicios, 
+                  b-none que son comercializados como producto turístico.
+      div.carousel-buttons    
+        button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.visually-hidden Previous
+      div.carousel-buttons    
+        button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.visually-hidden Next
+
     p.mt-5   Producto turístico lo integra la sumatoria de los  atractivos turísticos, los servicios de la planta turística y la accesibilidad dentro de un destino, que integrados logran satisfacer las necesidades y motivaciones del turista.
     br
     |Todos estos elementos que conforman el producto turístico se resumen en tres:
@@ -72,7 +141,7 @@
         p Son el conjunto de medios y actividades que facilitan la estancia y el bienestar del viajero, convergiendo en ellos elementos tangibles e intangibles, los cuales son en su etapa final de consumo, interdependientes (Instituto Distrital de Turismo ANATO Asociación Colombiana de Agencias de Viajes y Turismo, 2007).
     .row.mt-3
       .col-lg-7
-        h4 accesibilidad
+        h4 Accesibilidad
         p La accesibilidad en el diseño de producto hace relación solamente a las vías de comunicación que se dispone para acceder al destino y a cada uno de los lugares de interés.
       .col-lg-5
         img.img-box(src="@/assets/curso/tema-1/jpg/img4.jpg")
@@ -117,16 +186,75 @@
               b Mira el video
               br
               | Esto es un boton que abre en un modal el video 
-              
+    #t_1_1.h2.mt-5 1.1 Características
+    .row
+      .col-lg-6
+        p A diferencia de los productos tradicionales de consumo, donde se entrega un artículo que se puede tocar, degustar o sentir, un producto turístico tiene un contenido físico limitado y se evidencia al momento de recibir el servicio que brindan los prestadores de servicios turísticos.
+        br
+        p Entre las características propias que tienen los servicios turísticos frente a otros productos, se pueden identificar las siguientes:
+      .col-lg-6
+        img(src="@/assets/curso/tema-1/jpg/img6.jpg")
+    div.rp2.mt-5 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 Intangibilidad:
+          p es la característica que distingue a los productos de los servicios y supone tanto un elemento palpable como mental, conlleva a que el consumidor tenga un elevado grado de incertidumbre durante el proceso de compra.
+    div.rp2.mt-3 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 Variabilidad:
+          p es ofrecido y prestado por personas distintas y en circunstancias diferentes y es difícil evaluar la calidad antes de la compra, ya que las percepciones varían según las personas.
+    div.rp2.mt-3 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 Caducidad:
+          p son susceptibles de perecer y no se pueden almacenar.
+    div.rp2.mt-3 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 Temporalidad:
+          
+          p la compra de servicios solo da el derecho de ser usados en un tiempo y lugar determinado.
+    div.rp2.mt-3 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 Inseparabilidad:
+          p la creación y realización del servicio puede ocurrir al mismo tiempo que su consumo (in situ).
+    div.rp2.mt-3 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 No devolución:
+          p los servicios una vez utilizados no se pueden devolver.
+    div.rp2.mt-3 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 Interdependencia:
+          p el número de empresas que intervienen en la prestación del servicio hacen que la satisfacción del turista no dependa de una sola empresa sino del conjunto de prestadores.
+    div.rp2.mt-3 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 Estacionalidad:
+          p se vende en determinados momentos debido a la concentración de la demanda turística en ciertos periodos del año: temporadas, vacaciones, fines de semana.
+    div.rp2.mt-3 
+          img.img-rp2(src="@/assets/curso/tema-1/svg/img14.svg")
+          h2 Intransferible:
+          p una vez recibido no se puede ceder a otra persona el derecho sobre un servicio ya prestado.
+    div.rp3.mt-5 
+          img.img-rp(src="@/assets/curso/tema-1/svg/img2.svg")
+          p 
+            b La servucción: 
+            b-none significa el proceso de elaboración de un servicio, la organización de los elementos físicos y humanos en la relación cliente – empresas necesarias para la prestación de un servicio, cuantas características esenciales y niveles de calidad han sido determinadas (Pavón, 2012).
 
-
-    #t_1_1.pb-5.h2 tema 1.1
-      
-    .pb-5(v-for="item of 15")
-      
-
-    #t_1_2.pb-5.h2 tema 1.2
-    .pb-5(v-for="item of 15")
+    #t_1_2.pb-0.h2.mt-5 1.2 Tipos 
+    .row
+      .col-lg-6
+        p El conjunto de empresas que conforman la Industria Turística denominados prestadores de servicios turísticos (empresas de transporte, alojamiento, alimentación, organizadoras de eventos y amenidades, recreación, entre otros), 
+          b responde a los múltiples servicios que deben ofrecer y prestar a los turistas o viajeros; 
+          b-none operando de manera articulada y en conjunto  para responder a las necesidades del turista, haciendo posible el acceso, permanencia y disfrute de este en el lugar de destino.
+        br
+        p En Colombia se denominan prestadores de servicios turísticos, toda persona natural o jurídica que habitualmente proporcione intermedie o contrate directa o indirectamente con el turista, 
+          b la prestación de los servicios a que se refiere la Ley 300 de 1996 
+          b-none y que se encuentre inscrito en el Registro Nacional de Turismo (Fondo Nacional de Turismo - FONTUR. República de Colombia. Bogotá D.C., 2020).
+      .col-lg-6
+        img.d-block.m-auto(src="@/assets/curso/tema-1/jpg/img7.jpg")
+    div.rp4.mt-5 
+          h4 Entrar al enlace Ley 1101 de 2006. / Ley 300 de 1996 - Ley General de Turismo.
+          div.button-link
+            //---------------> ESTE ENLACE ESTA CAIDO 
+            a(href="http://www.suinjuriscol.gov.co/viewDocument.asp?ruta=Leyes/1673876",target="_blank")
+              h4 Enlace aquí
 </template>
 
 <script>
