@@ -32,7 +32,7 @@
     p.mt-3   Finalmente, se elaborará el Portafolio de servicios con al menos 10 servicios identificados, priorizados y categorizados respectivamente, 
       b en esta etapa se incluirá el nivel en detalle para cada servicio establecido, 
       b-none teniendo en cuenta aspectos preliminares a desarrollar para cada servicio en el portafolio:
-    div.div-box-general-2
+    div.div-box-general-2.mt-3
       div.div-box
         img.img-box(src="@/assets/curso/tema-2/svg/img2.svg")
         h6.text-center.mt-3 Descripción del servicio.
