@@ -99,7 +99,7 @@
           div.text.my-auto
             h5.p2 Bed & Breakfast (B&B).
             p.p2 Ofrece una habitación con desayuno completo (cama y desayuno). 
-
+    
 </template>
 
 <script>
