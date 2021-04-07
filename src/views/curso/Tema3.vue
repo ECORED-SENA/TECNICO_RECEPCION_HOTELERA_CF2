@@ -26,13 +26,13 @@
     p Un PNR (Passenger Name Record) contiene los detalles de la reserva del pasajero o huésped, en relación con el viaje o permanencia en el hotel y 
       b sus componentes se denominan elementos, estos pueden ser obligatorios, OMC y tarifa.
     div.rp2.mt-5 
-      h4 Elementos olbigatorios
+      h4 Elementos obligatorios:
       img.img-info(src="@/assets/curso/tema-3/svg/img1.svg")
     div.rp2.mt-3 
-      h4 Elementos MCO
+      h4 Elementos MCO:
       img.img-info(src="@/assets/curso/tema-3/svg/img2.svg")
     div.rp2.mt-3 
-      h4 Elementos MCO
+      h4 Elemento tarifa:
       img.img-info(src="@/assets/curso/tema-3/svg/img3.svg")
     p.mt-5 Cuando se crea una reserva se pueden ingresar los elementos en cualquier orden, todos los elementos son numerados consecutivamente.
     #t_3_3.h2 3.3  Tipos
@@ -120,19 +120,18 @@
       div.div-gradient-1 
           div.c-card-1
             img.img-cards.mt-1(src="@/assets/curso/tema-3/svg/img14.svg")
-            h3.h1i.mt-3 Reservas individuales
-            p.mt-3 Aquellas realizadas de forma independiente para un número de personas inferior a 10. Puede proceder de un cliente particular, o haber sido realizadas por una agencia de viajes o una empresa.
+            h3.h1i.mt-3 El planning nominal.
+            p.mt-3 Es el más indicado para pequeños establecimientos, en los que resulta posible realizar la reserva y asignación de la habitación en un mismo momento. Es  una planilla en la que se incorporan las fechas del mes y la numeración de las habitaciones, puede ir acompañada de información relativa a sus características, los servicios  y  la ubicación.
       div.div-gradient-2 
           div.c-card-1
             img.img-cards.mt-1(src="@/assets/curso/tema-3/svg/img14.svg")
-            h3.h1i.mt-3 Reservas individuales
-            p.mt-3 Aquellas realizadas de forma independiente para un número de personas inferior a 10. Puede proceder de un cliente particular, o haber sido realizadas por una agencia de viajes o una empresa.
+            h3.h1i.mt-3 El planning numérico.
+            p.mt-3 Su utilización es válida para establecimientos de cualquier tamaño, pero está especialmente pensado para hoteles con mucho movimiento.
       div.div-gradient-3 
           div.c-card-1
             img.img-cards.mt-1(src="@/assets/curso/tema-3/svg/img14.svg")
-            h3.h1i.mt-3 Reservas individuales
-            p.mt-3 Aquellas realizadas de forma independiente para un número de personas inferior a 10. Puede proceder de un cliente particular, o haber sido realizadas por una agencia de viajes o una empresa.
-
+            h3.h1i.mt-3 El planning forecast.
+            p.mt-3 Se utiliza en hoteles de gran capacidad y notable movimiento de entradas y salidas, generalmente motivado por una estancia media muy baja, de escaso uso en la actualidad, se configura para impresos mensuales.
 </template>
 
 <script>

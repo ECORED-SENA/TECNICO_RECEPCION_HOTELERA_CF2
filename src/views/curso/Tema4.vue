@@ -27,9 +27,6 @@
       h5 Primer contacto
       p Es el primer contacto de los clientes con el hotel y debe proporcionar una imagen de amabilidad en el trato y eficiencia en la prestación de servicio.
     div.recuadro.mt-3 
-      h5 Recepción y control
-      p Tiene como principal función la recepción y control de las solicitudes de espacio para la reserva de habitaciones, tanto  de las agencias de viajes, como de otras empresas y público en general, además cumple con una importante labor en el proceso de  venta de habitaciones, manteniendo  actualizada  la recepción, respecto a la situación ocupacional del hotel, con el objetivo de captar la mayor cantidad de clientes.
-    div.recuadro.mt-3 
       h5 Gestión eficiente
       p Gestión eficiente de la disponibilidad de habitaciones, revisando constantemente el nivel de ocupación y realizando previsiones adecuadas para evitar situaciones conflictivas tales como sobreocupación.
     div.recuadro.mt-3 
@@ -47,7 +44,7 @@
       h5 Previsión
       p Previsión de servicios y comunicación con los demás  departamentos del hotel.
     div.recuadro.mt-3 
-      h5 Atendiende las peticiones
+      h5 Atendiendo las peticiones
       p Realiza reservas de habitaciones, se procede, atendiendo las peticiones de los clientes según sus preferencias y su histórico de estancias.
     div.recuadro.mt-3 
       h5 Recibe el rooming
