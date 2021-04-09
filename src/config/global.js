@@ -228,10 +228,7 @@ export const creditos = {
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {
-      nombre: [
-        'Camilo Andres Bolaño Rey ',
-        'Gustavo Adolfo Marun Suarez',
-      ],
+      nombre: ['Camilo Andres Bolaño Rey ', 'Gustavo Adolfo Marun Suarez'],
       cargo: 'Desarrollo Front-End',
     },
     {
