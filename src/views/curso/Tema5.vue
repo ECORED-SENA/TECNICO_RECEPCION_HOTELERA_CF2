@@ -75,29 +75,29 @@
     div.rp2.mt-2 
           img.img-rp3(src="@/assets/curso/tema-5/svg/img2.svg")
           div.text.my-auto
-            h5.p2 Plan Continental.
+            h5.p2 Plan Continental
             p.p2 Incluye el servicio de habitación además de un desayuno básico (pan tostado, mantequilla, mermelada y jugo de naranja, café o té). 
             br
             p.p2 Muchos hoteles en la actualidad han cambiado este plan incluyendo desayunos más completos o incluyendo un servicio de buffet para la primera comida del día
     div.rp2.mt-2 
           img.img-rp3(src="@/assets/curso/tema-5/svg/img3.svg")
           div.text.my-auto
-            h5.p2 Plan Americano.
+            h5.p2 Plan Americano
             p.p2 Tarifa de hotel que incluye el alojamiento y  tres comidas al día (desayuno, almuerzo y cena). Se conoce como pensión completa o alojamiento completo. 
     div.rp2.mt-2 
           img.img-rp3(src="@/assets/curso/tema-5/svg/img4.svg")
           div.text.my-auto
-            h5.p2 Plan Americano Modificado.
+            h5.p2 Plan Americano Modificado
             p.p2 Incluye la habitación, el desayuno y una de las comidas (almuerzo o cena), queda a elección del huésped.
     div.rp2.mt-2 
           img.img-rp3(src="@/assets/curso/tema-5/svg/img5.svg")
           div.text.my-auto
-            h5.p2 Plan Todo Incluido.
+            h5.p2 Plan Todo Incluido
             p.p2 Es uno de los planes más populares, pues por un solo precio incluye las tres comidas del día, snacks, bocadillos y bebidas. Es común en centros vacacionales, resorts y cadenas hoteleras. También conocido como All Inclusive o plan Absolute.
     div.rp2.mt-2 
           img.img-rp3(src="@/assets/curso/tema-5/svg/img6.svg")
           div.text.my-auto
-            h5.p2 Bed & Breakfast (B&B).
+            h5.p2 Bed & Breakfast (B&B)
             p.p2 Ofrece una habitación con desayuno completo (cama y desayuno). 
     
 </template>

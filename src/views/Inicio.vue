@@ -4,10 +4,13 @@ section
 
   //- Desarrollo de contenidos
   #contenidos.pb-5
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5
+  .container.tarjeta.tarjeta__template--azul-claro.resultados.px-3.py-4.px-sm-5
+    .titulo__template--a.titulo-resultados
+      span.h6 Resultados<br>de aprendizaje
+    p Ofrecer servicios del establecimiento de acuerdo con portafolio, tipo de hotel y protocolos. 
+  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mt-5
     .titulo__template--a.mb-4
       span.h6 Desarrollo<br>de contenidos
-
     .tarjeta--blanca.p-3.p-sm-4
       .desarrollo-contenidos
         router-link.desarrollo-contenidos__item(

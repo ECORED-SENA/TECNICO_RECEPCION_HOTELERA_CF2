@@ -188,34 +188,19 @@ export const creditos = {
     {
       nombre: 'Rafael Neftalí Lizcano Reyes',
       cargo: 'Responsable del equipo',
-      centro: 'Centro Industrial Del Diseño Y La Manufactura',
-      regional: 'Regional Santander',
+      centro: 'Centro de Servicios y Gestión Empresarial',
+      regional: 'Regional Antioquia',
     },
     {
-      nombre: 'Tania Yaneth Ramírez Benítez',
-      cargo: 'Soporte organizacional',
+      nombre: 'Sandra Isabel Suarez Delgado',
+      cargo: 'Experta',
       centro: 'CENTRO DE COMERCIO Y SERVICIOS',
       regional: 'Regional Tolima',
     },
     {
-      nombre: 'Amparo Virginia Moreno Cantero',
-      cargo: 'Experto temática',
-      centro: 'Centro de Servicios y Gestión Empresarial',
-    },
-    {
-      nombre: 'Leidy Carolina Arias Aguirre',
-      cargo: 'Experto temático',
-      centro: 'Centro de Diseño y Metrología.',
-    },
-    {
-      nombre: 'Leidy Carolina Arias Aguirre',
-      cargo: 'Diseñador instruccional',
-      centro: 'Centro de Diseño y Metrología.',
-    },
-    {
       nombre: 'Gloria Esperanza Ortiz Russi',
-      cargo: 'Evaluadora instruccional',
-      centro: 'Centro de Diseño y Metrología.',
+      cargo: 'Diseñador Instruccional ',
+      regional: 'Regional Distrito Capital',
     },
     {
       nombre: 'Martha Isabel Martínez Vargas',
@@ -234,11 +219,21 @@ export const creditos = {
       cargo: 'Soporte organizacional',
     },
     {
-      nombre: ['Yuly Rey', 'Camilo Villamizar'],
+      nombre: [
+        'Camilo Andrés Villamizar Lizcano',
+        'Victor Raúl Cárdernas Cáceres',
+        'Wilson Andres Arenales Cáceres',
+        'Yuly Andrea Rey Quiñonez',
+      ],
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {
-      nombre: 'Camilo Andres Bolaño Rey',
+      nombre: [
+        'Edward Leonardo Pico Cabra',
+        'Daniel Ricardo Mutis Gómez',
+        'Luis Gabriel Urueta Alvarez',
+        'Ricardo Alfonso González Vargas',
+      ],
       cargo: 'Desarrollo Front-End',
     },
     {
@@ -249,7 +244,7 @@ export const creditos = {
   gestoresRepositorio: [
     {
       nombre: 'Milady Tatiana Villamil Castellanos',
-      cargo: ['Desarrollo front-end', 'Validación de recursos'],
+      cargo: ['Validación de recursos'],
       centro: 'Centro de comercio y servicios',
       regional: 'Regional Tolima',
     },
@@ -270,18 +265,12 @@ export const referencias = [
   },
   {
     referencia:
-      'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En harpersbazaar.mx',
-    link:
-      'https://www.harpersbazaar.mx/belleza/salud-y-bienestar/la-ropa-que-eliges-afecta-a-tu-estado-de-animo-y-cerebro-segun-expertos/',
-  },
-  {
-    referencia:
-      'Fondo Nacional de Turismo -FONTUR. (2003). https://www.fontur.com.co/interactue/glosario/63. (AyMsoft, Productor)',
+      'Fondo Nacional de Turismo -FONTUR. (2003). https://www.fontur.com.co/interactue/glosario/63. (AyMsoft, Productor).',
     link: 'https://www.fontur.com.co/interactue/glosario/63',
   },
   {
     referencia:
-      'Instituto Distrital de Turismo. ANATO Asociación Colombiana de Agencias de Viajes y Turismo. (2007). http://www.bogotaturismo.gov.co/sites/default/files/MANUAL_DISENO_DE_PAQUETES_TURISTICOS.pdf.',
+      'Instituto Distrital de Turismo. ANATO Asociación Colombiana de Agencias de Viajes y Turismo. (2007).',
     link:
       'http://www.bogotaturismo.gov.co/sites/default/files/MANUAL_DISENO_DE_PAQUETES_TURISTICOS.pdf',
   },
@@ -319,24 +308,24 @@ export const glosario = [
       'el conjunto de bienes destinados por una persona natural o jurídica a prestar el servicio de alojamiento no permanente inferior a 30 días con o sin alimentación y servicios básicos y/o complementarios o accesorios de alojamiento, mediante contrato de hospedaje, el cual es un contrato de arrendamiento, de carácter comercial y de adhesión, que una empresa dedicada a ésta actividad celebra con el propósito principal de prestar alojamiento a otra persona denominada huésped, mediante el pago del precio respectivo día a día, por un plazo inferior a 30 días',
   },
   {
-    termino: 'Guía de Turismo:',
+    termino: 'Guía de Turismo',
     significado:
       'se considera guía de turismo a la persona natural que presta servicios profesionales en el área de guionaje o guianza turística, cuyas funciones hacia el turista, viajero o pasajero son las de orientar, conducir, instruir y asistir durante la ejecución del servicio contratado, que esté inscrita en el Registro Nacional de Turismo, previa obtención de la correspondiente tarjeta profesional como guía de turismo, otorgada por la entidad u organismo que el gobierno designe.',
   },
   {
-    termino: 'Oferta turísticaDiseño',
+    termino: 'Oferta turística',
     significado:
       'conjunto de bienes y servicios turísticos que los productores del sector están dispuestos a ofrecer a determinados precios.',
   },
   {
     termino: 'Operador profesional de congresos, ferias y convenciones',
     significado:
-      'con las personas naturales o jurídicas legalmente constituidas que se dediquen a la organización de certámenes como congresos, convenciones, ferias, seminarios y reuniones similares, en sus etapas de gerenciamiento, planeación, promoción y realización, así como a la asesoría y/o producción de estos certámenes en forma total o parcial.',
+      'son las personas naturales o jurídicas legalmente constituidas que se dediquen a la organización de certámenes como congresos, convenciones, ferias, seminarios y reuniones similares, en sus etapas de gerenciamiento, planeación, promoción y realización, así como a la asesoría y/o producción de estos certámenes en forma total o parcial.',
   },
   {
     termino: 'Portafolios de Servicios',
     significado:
-      'cocumento que las empresas, organizaciones o trabajadores independientes entrega a sus clientes para informar sobre los servicios ofrecidos y sobre otros datos importantes.',
+      'documento que las empresas, organizaciones o trabajadores independientes entrega a sus clientes para informar sobre los servicios ofrecidos y sobre otros datos importantes.',
   },
   {
     termino: 'Prestador de servicios turísticos',
