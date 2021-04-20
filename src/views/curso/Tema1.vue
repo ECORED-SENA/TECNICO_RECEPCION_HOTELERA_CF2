@@ -255,7 +255,7 @@
           h4 Entrar al enlace Ley 1101 de 2006. / Ley 300 de 1996 - Ley General de Turismo.
           div.button-link
             //---------------> ESTE ENLACE ESTA CAIDO 
-            a(href="http://www.suinjuriscol.gov.co/viewDocument.asp?ruta=Leyes/1673876",target="_blank")
+            a(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1673876",target="_blank")
               h4 Enlace aquí
     
 </template>

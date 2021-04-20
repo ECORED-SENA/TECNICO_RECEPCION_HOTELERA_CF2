@@ -187,9 +187,9 @@ export const creditos = {
   contenidoInstruccional: [
     {
       nombre: 'Rafael Neftalí Lizcano Reyes',
-      cargo: 'Responsable del equipo',
-      centro: 'Centro de Servicios y Gestión Empresarial',
-      regional: 'Regional Antioquia',
+      cargo: 'Responsable Equipo',
+      centro: 'Centro Industrial Del Diseño Y La Manufactura',
+      regional: 'Regional Santander',
     },
     {
       nombre: 'Sandra Isabel Suarez Delgado',
@@ -228,7 +228,7 @@ export const creditos = {
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {
-      nombre: ['Camilo Andres Bolaño Rey ', 'Gustavo Adolfo Marun Suarez'],
+      nombre: ['Camilo Andres Bolaño Rey '],
       cargo: 'Desarrollo Front-End',
     },
     {
@@ -251,17 +251,17 @@ export const referencias = [
     referencia:
       'Boullon, R. C. (2006). Planificación del Espacio Turístico. Ciudad de México: Editorial Trillas.',
     link:
-      'https://d1wqtxts1xzle7.cloudfront.net/52281375/0107-planificacion-del-espacio-turistico-roberto-c-ballon.pdf?1490316133=&response-content-disposition=inline%3B+filename%3DPLANIFICACION_DEL_ESPACIO_TuRISTICO.pdf&Expires=1602090604&Signature=Tj3mbU9dZo6Jguw',
+      'http://prepacihuatlan.sems.udg.mx/sites/default/files/planificaciondelespacioturisticorobertoc.boullon.pdf',
   },
   {
     referencia:
       'Fondo Nacional de Turismo - FONTUR. República de Colombia. Bogotá D.C. (2020). FONTUR Colombia Co.',
-    link: 'https://www.fontur.com.co/interactue/glosario/63',
+    link: 'https://fontur.com.co/es/glosario?q=es/glosario',
   },
   {
     referencia:
-      'Fondo Nacional de Turismo -FONTUR. (2003). https://www.fontur.com.co/interactue/glosario/63. (AyMsoft, Productor).',
-    link: 'https://www.fontur.com.co/interactue/glosario/63',
+      'Fondo Nacional de Turismo -FONTUR. (2003).(AyMsoft, Productor).',
+    link: 'https://fontur.com.co/es/glosario?q=es/glosario',
   },
   {
     referencia:
@@ -272,12 +272,13 @@ export const referencias = [
   {
     referencia:
       'Novas, N. C. (2006). Promoción y Venta de Servicios Turísticos (1a. Edición ed.). La Habana, Cuba: Ideas propias, Editorial Vigo.',
-    link:
-      'https://books.google.es/books?hl=es&lr=lang_es&id=GDIxq8Zsj_0C&oi=fnd&pg=PT17&dq=servicios+tur%C3%ADsticos&ots=Jj3VGMN5Eb&sig=MIvPLT-isymBOaC2QekruTGjnSo#v=onepage&q=servicios%20tur%C3%ADsticos&f=false',
+    link: 'https://issuu.com/ideaspropiaseditorial/docs/978-84-9839-101-5',
   },
   {
     referencia:
       'Pavón, C. R. (2012). Promoción y comercialización de productos y servicios turísticos locales. Málaga: IC Editorial.',
+    link:
+      'http://descargas.pntic.mec.es/mentor/visitas/promocion_comercializacion_productos_servicioslocales.pdf',
   },
 ]
 

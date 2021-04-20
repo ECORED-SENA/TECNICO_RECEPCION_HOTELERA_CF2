@@ -14,11 +14,8 @@
           p.p-enfasis Las reservas pueden ser telefónicas, directas, virtuales, por grupos y a través, de sistemas de reservaciones o GDS.
 
 
-    #t_4_1.pb-5.h2 4.1 Funciones
-      //- ESTE VIDEO HACE FALTA POR SER ELABORADO
-    .video.mb-5.mt-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/sBDvcLGFD3Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mt-5 El personal que trabaja en reservas debe saber vender los servicios que ofrece a los clientes y poseer los conocimientos necesarios que implica el proceso de reservaciones.
+    #t_4_1.h2 4.1 Funciones
+    p El personal que trabaja en reservas debe saber vender los servicios que ofrece a los clientes y poseer los conocimientos necesarios que implica el proceso de reservaciones.
 
     div.recuadro.mt-5 
       h5 Recepción y control
@@ -65,22 +62,22 @@
     #t_4_2.h2.mt-5 4.2 Cualidades del personal de reservas
     div.img-content
       div.images-cards
-        img.img-cards(src="@/assets/curso/tema-4/jpg/img2.jpg")
+        img.img-cards(src="@/assets/curso/tema-4/jpg/img2.jpg" style="min-width:447px")
         p 
           b Excelente presentación personal 
           b-none acorde a las normas de etiqueta y protocolo (aseo personal, portar adecuadamente el uniforme, buena postura)
       div.images-cards
-        img.img-cards(src="@/assets/curso/tema-4/jpg/img3.jpg")
+        img.img-cards(src="@/assets/curso/tema-4/jpg/img3.jpg" style="width:447px")
         p 
           b Amabilidad y cortesía, 
           b-none ser respetuoso de la necesidad de las personas, actuando con buena actitud y muy receptivo.
       div.images-cards
-        img.img-cards(src="@/assets/curso/tema-4/jpg/img4.jpg")
+        img.img-cards(src="@/assets/curso/tema-4/jpg/img4.jpg" style="width:447px")
         p 
           b Comunicación verbal, 
           b-none vocabulario sencillos, comprensibles y apropiados, hablar fluida y tranquilamente, evitando respuestas monosílabas.
       div.images-cards
-        img.img-cards(src="@/assets/curso/tema-4/jpg/img5.jpg")
+        img.img-cards(src="@/assets/curso/tema-4/jpg/img5.jpg" style="width:447px")
         p 
           b Comunicación no verbal, 
           b-none cuidar movimientos corporales, su expresión facial, comunicación visual y táctil. Manejar la distancia proxémica con el huésped.
