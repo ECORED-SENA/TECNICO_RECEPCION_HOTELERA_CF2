@@ -92,7 +92,7 @@
             br
             |Los paquetes son una forma de comercializar productos hoteleros, para brindar a los clientes más servicios, por precios más atractivos. Se puede empaquetar con productos propios o de terceros. Ejemplo: Plan Noche de bodas, Paquete con Alimentación y tures incluidos.
     .tabla-a.color-acento-botones.mb-5
-      .color-acento-contenido.text-white.p-2.text-center
+      .color-acento-contenido-3.text-white.p-2.text-center
         .h4 ESTRUCTURA TARIFAS PUBLICAS HOTEL EJEMPLO
         .h5 Tarifas en pesos Colombianos (COP)
       table.text-center
