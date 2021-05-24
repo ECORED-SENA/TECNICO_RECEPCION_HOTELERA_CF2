@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.run": "onSave",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#19a0a4",
+    "activityBar.activeBorder": "#a619a2",
+    "activityBar.background": "#19a0a4",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#a619a2",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#127578",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#19a0a4",
+    "titleBar.activeBackground": "#127578",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#12757899",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#127578",
+}

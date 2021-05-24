@@ -1,33 +1,25 @@
 <template lang="pug">
 #app.app
-  Header(:menu-open.sync="menuOpen")
+  Header
   .contenedor-principal
-    AsideMenu(:menu-open.sync="menuOpen")
-    section.seccion-principal
-      router-view(:menu-open="menuOpen")
+    AsideMenu
+    section.seccion-principal(:class="{'seccion-principal--barra-avance-open' : !menuState}")
+      router-view
       footer
-  BarraAvance(:menu-open="menuOpen")
+  BarraAvance
 
 </template>
 
 <script>
-import { global } from './config/global'
-import AsideMenu from './components/plantilla/AsideMenu'
-import Header from './components/plantilla/Header'
-import BarraAvance from './components/plantilla/BarraAvance'
 export default {
   name: 'App',
-  components: {
-    AsideMenu,
-    Header,
-    BarraAvance,
-  },
   data: () => ({
     menuOpen: false,
-    globalData: global,
   }),
-  created() {
-    document.title = this.globalData.componenteFormativo
+  computed: {
+    menuState() {
+      return this.$store.getters.isMenuOpen
+    },
   },
 }
 </script>
@@ -41,4 +33,8 @@ export default {
 
 .seccion-principal
   width: 100%
+
+  &--barra-avance-open
+    .curso-main-container
+      padding-bottom: 80px !important
 </style>
