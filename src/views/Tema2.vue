@@ -21,9 +21,9 @@
       |Le recomendamos analizar el video “Portafolio de servicios”, el cual resume las características principales de este portafolio. El enlace se encuentra en el material complementario.
     figure.mb-5
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vroVY5dThec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      figcaption Sebastián Yatra - SABROSURA - Piso 21, Martina La Peligrosa, Herencia De Timbiquí, Alexis Play
-    .row.mb-5
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mkIdPKBfpXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      figcaption Definición del Portafolio
+    .row.mb-5  
       .col-lg-7
         .h5 Estructura del Portafolio de Servicios
         p.mb-5 Una vez establecida la diferencia entre las categorías y los servicios que se podrían incluir en cada una de ellas, se hace mención al componente estratégico del portafolio de servicios de la organización, el cual deberá contar con una adecuada categorización de los servicios, pues el fin primordial del portafolio de servicios consiste en identificar el valor brindado por cada uno de los servicios y si su aporte al negocio genera un valor agregado, satisfacción al usuario o aumento en las ganancias percibidas.
