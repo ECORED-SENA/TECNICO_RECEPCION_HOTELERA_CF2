@@ -284,31 +284,43 @@ export default {
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Asistencia Administrativa. (agosto 23 de 2021). Portafolio de servicios',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=GFSftLP2LrE',
+    },
+    {
+      texto: 'Colombiatravel. (abril 28, 2019). Sabrosura (Video).',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vroVY5dThec',
+    },
+    {
+      texto: 'FONTUR Colombia Co (2020) Glosario de terminología de Turismo',
+      tipo: 'Sitio Web',
+      link: 'https://www.fontur.com.co/interactue/glosario/63',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
+        'Instituto Distrital de Turismo, ANATO – Asociación Colombiana de Agencias de Viajes (2006) Manual Diseño de productos Turísticos',
       tipo: 'Página web',
       descarga: '/downloads/prueba.pdf',
     },
     {
       texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      tipo: 'Documento',
+      link:
+        'http://www.bogotaturismo.gov.co/sites/default/files/MANUAL_DISENO_DE_PAQUETES_TURISTICOS.pdf',
+    },
+    {
+      texto: 'Ministerio de Desarrollo Económico. (1996). Ley 300 de 1996.',
+      tipo: 'PDF',
+      link:
+        'https://www.minambiente.gov.co/images/normativa/leyes/1996/ley_0300_1996.pdf ',
+    },
+    {
+      texto:
+        'Visión Gerencial. Marysela Coromoto Morillo Moreno (2011) Turismo y producto turístico.Evolución, conceptos, componentes y clasificación',
+      tipo: 'Artículo',
+      link: 'https://www.redalyc.org/pdf/4655/465545890011.pdf',
     },
   ],
 }
