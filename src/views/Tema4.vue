@@ -4,58 +4,71 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal
       .titulo-principal__numero
-        .h3 4
-      .h3 Área de Reservas
+        span 4
+      h1 Área de Reservas
+
     figure.mb-5
       img(src='@/assets/curso/img18.jpg', alt='Texto que describa la imagen')
+
     p.mb-5 El área o departamento de reservas tiene en la gran mayoría de los casos el primer contacto con los clientes que en un futuro inmediato visitarán el hotel; manteniendo contacto permanente con los diferentes tipos de clientes: agencias de viajes, empresas y particulares.
       br
       br
-      |Este departamento se encarga de administrar de manera eficiente la disponibilidad de habitaciones, procurando siempre venderlas de la forma más conveniente y rentable para       |el hotel.
-      br      
-      br      
-      |Las reservas pueden ser telefónicas, directas, virtuales, por grupos y a través de sistemas de reservaciones o GDS.
+      | Este departamento se encarga de administrar de manera eficiente la disponibilidad de habitaciones, procurando siempre venderlas de la forma más conveniente y rentable para |el hotel.
+      br 
+      br 
+      | Las reservas pueden ser telefónicas, directas, virtuales, por grupos y a través de sistemas de reservaciones o GDS.
+
     #t_4_1.titulo-segundo
-      .h4 4.1. Funciones
+      h4 4.1. Funciones
+
     p.mb-5 El personal que trabaja en reservas debe saber vender los servicios que ofrece a los clientes y poseer los conocimientos necesarios que implica el proceso de reservaciones.
-    SlyderB.mb-5(:datos="datosSlyder")
+
+    SlyderB.mb-5(:datos='datosSlyder')
+
     p.mb-5 Hoy en día todos estos controles e informes se apoyan en la tecnología. Ya hay en el mercado opciones de PMS (Property Management System) sirven para manejar y controlar toda la operación del hotel.
       br
       br
-      |Estos a su vez se conectan con los sistemas de distribución
+      | Estos a su vez se conectan con los sistemas de distribución
+
     figure.mb-5
       img(src='@/assets/curso/img24.jpg', alt='Texto que describa la imagen')
+
     #t_4_2.titulo-segundo
-      .h4 4.2. Cualidades del personal de reservas
+      h4 4.2. Cualidades del personal de reservas
+
     p.mb-5 Las cualidades que debe presentar el personal de reservas, son:
+
     .row
       .col-lg-6
-        .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/img25.svg' alt='AvatarTop')
+        .tarjeta-avatar-c.mb-5
+          .tarjeta-avatar-c__img
+            img(src='@/assets/curso/img25.png', alt='AvatarTop')
           .tarjeta.color-primario-claro.completa
             .p-4
               .h4 Presentación persona
               p Excelente presentación personal acorde a las normas de etiqueta y protocolo (aseo personal, portar adecuadamente el uniforme, buena postura).
-        .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/img26.svg' alt='AvatarTop')
+        .tarjeta-avatar-c.mb-5
+          .tarjeta-avatar-c__img
+            img(src='@/assets/curso/img26.png', alt='AvatarTop')
           .tarjeta.color-primario-claro.completa
             .p-4
               .h4 Comunicación verbal
               p Comunicación verbal, vocabulario sencillos, comprensibles y apropiados, hablar fluida y tranquilamente, evitando respuestas monosílabas.
       .col-lg-6
-        .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/img27.svg' alt='AvatarTop')
+        .tarjeta-avatar-c.mb-5
+          .tarjeta-avatar-c__img
+            img(src='@/assets/curso/img27.png', alt='AvatarTop')
           .tarjeta.color-primario-claro.completa
             .p-4
               .h4 Amabilidad
               p Amabilidad y cortesía, ser respetuoso de la necesidad de las personas, actuando con buena actitud y muy receptivo.
-        .tarjeta-Avatar-b.mb-5
-          img(src='@/assets/curso/img28.svg' alt='AvatarTop')
+        .tarjeta-avatar-c.mb-5
+          .tarjeta-avatar-c__img
+            img(src='@/assets/curso/img28.png', alt='AvatarTop')
           .tarjeta.color-primario-claro.completa
-            .p-4
+            .p-4 
               .h4 Comunicación no verbal
               p Comunicación no verbal, cuidar movimientos corporales, su expresión facial, comunicación visual y táctil. Manejar la distancia proxémica con el huésped.
-
 </template>
 
 <script>
@@ -99,4 +112,18 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.tarjeta-avatar-c
+  display: flex
+  &__img
+    min-width: $tarjeta-avatar-b-ancho-img
+    max-width: $tarjeta-avatar-b-ancho-img
+    position: relative
+    display: flex
+    align-items: center
+
+  .tarjeta
+    width: 100%
+    margin-left: - $tarjeta-avatar-b-ancho-img / 2
+    padding-left: $tarjeta-avatar-b-ancho-img / 2
+</style>

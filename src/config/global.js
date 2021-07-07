@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       '¡Bienvenido al componente formativo 2 Gestión de Reservas Hoteleras! Este componente ha sido diseñado para que usted conozca los servicios turísticos e interactúe dentro del sistema turístico, identificando los elementos que lo integran y la importancia que tienen en el desarrollo de la industria hotelera. Contiene temáticas que le proporcionarán los conocimientos necesarios para el desarrollo de habilidades, destrezas y capacidades en cuanto a la prestación de servicios turísticos, en el área de recepción y reservas de un hotel.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    //-fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    // fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -110,72 +110,6 @@ export default {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
-      },
-    ],
-  },
-  creditos: {
-    liderEquipo: {
-      nombre: 'Maria Camila Garcia Santamaria',
-      cargo: 'Líder del equipo',
-    },
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable Equipo',
-        centro: 'Centro Industrial Del Diseño Y La Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Sandra Isabel Suarez Delgado',
-        cargo: 'Experta',
-        centro: 'CENTRO DE COMERCIO Y SERVICIOS',
-        regional: 'Regional Tolima',
-      },
-      {
-        nombre: 'Gloria Esperanza Ortiz Russi',
-        cargo: 'Diseñador Instruccional ',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Martha Isabel Martínez Vargas',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro Industrial Del Diseño Y La Manufactura',
-        regional: 'Regional Santander',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-      },
-      {
-        nombre: [
-          'Camilo Andrés Villamizar Lizcano',
-          'Victor Raúl Cárdernas Cáceres',
-          'Wilson Andres Arenales Cáceres',
-          'Yuly Andrea Rey Quiñonez',
-        ],
-        cargo: 'Diseño web y Producción Audiovisual',
-      },
-      {
-        nombre: ['Camilo Andres Bolaño Rey '],
-        cargo: 'Desarrollo Front-End',
-      },
-      {
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: ['Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
       },
     ],
   },
@@ -323,4 +257,96 @@ export default {
       link: 'https://www.redalyc.org/pdf/4655/465545890011.pdf',
     },
   ],
+  creditos: {
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila Garcia Santamaria',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Responsable Equipo',
+        centro:
+          'Centro Industrial Del Diseño Y La Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Sandra Isabel Suarez Delgado',
+        cargo: 'Experta',
+        centro: 'CENTRO DE COMERCIO Y SERVICIOS Regional Tolima',
+      },
+      {
+        nombre: 'Gloria Esperanza Ortiz Russi',
+        cargo: 'Diseñador Instruccional ',
+        centro: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Martha Isabel Martínez Vargas',
+        cargo: 'Revisora de estilo',
+        centro:
+          'Centro Industrial Del Diseño Y La Manufactura Regional Santander',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: [
+          'Camilo Andrés Villamizar Lizcano',
+          'Victor Raúl Cárdernas Cáceres',
+          'Wilson Andres Arenales Cáceres',
+          'Yuly Andrea Rey Quiñonez',
+        ],
+        cargo: 'Diseño web y Producción Audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Camilo Andres Bolaño Rey '],
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación de recursos'],
+        centro: 'Centro de comercio y servicios Regional Tolima',
+      },
+    ],
+  },
+  // creditosInicio: [
+  //   {
+  //     titulo: 'En alianza',
+  //     contenido: [
+  //       require('@/assets/template/logo-sena-naranja.svg'),
+  //       require('@/assets/template/mintic.jpg'),
+  //       require('@/assets/template/minsalud.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'En compañía',
+  //     contenido: [
+  //       require('@/assets/template/presidencia.jpg'),
+  //       require('@/assets/template/ecopetrol.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'Una iniciativa',
+  //     contenido: [require('@/assets/template/santander.jpg')],
+  //   },
+  // ],
 }
