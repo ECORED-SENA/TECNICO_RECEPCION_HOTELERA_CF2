@@ -25,7 +25,7 @@
 
     SlyderB.mb-5(:datos='datosSlyder')
 
-    p.mb-5 Hoy en día todos estos controles e informes se apoyan en la tecnología. Ya hay en el mercado opciones de PMS (Property Management System) sirven para manejar y controlar toda la operación del hotel.
+    p.mb-5 Hoy en día todos estos controles e informes se apoyan en la tecnología. Ya hay en el mercado opciones de PMS (Property Management System) que sirven para manejar y controlar toda la operación del hotel.
       br
       br
       | Estos a su vez se conectan con los sistemas de distribución
@@ -36,7 +36,7 @@
     #t_4_2.titulo-segundo
       h4 4.2. Cualidades del personal de reservas
 
-    p.mb-5 Las cualidades que debe presentar el personal de reservas, son:
+    p.mb-5 Las cualidades que debe presentar el personal de reservas son:
 
     .row
       .col-lg-6
@@ -45,7 +45,7 @@
             img(src='@/assets/curso/img25.png', alt='AvatarTop')
           .tarjeta.color-primario-claro.completa
             .p-4
-              .h4 Presentación persona
+              .h4 Presentación personal
               p Excelente presentación personal acorde a las normas de etiqueta y protocolo (aseo personal, portar adecuadamente el uniforme, buena postura).
         .tarjeta-avatar-c.mb-5
           .tarjeta-avatar-c__img
@@ -53,7 +53,7 @@
           .tarjeta.color-primario-claro.completa
             .p-4
               .h4 Comunicación verbal
-              p Comunicación verbal, vocabulario sencillos, comprensibles y apropiados, hablar fluida y tranquilamente, evitando respuestas monosílabas.
+              p Comunicación verbal, vocabulario sencillo, comprensible y apropiado, hablar fluida y tranquilamente, evitando respuestas monosílabas.
       .col-lg-6
         .tarjeta-avatar-c.mb-5
           .tarjeta-avatar-c__img
@@ -61,7 +61,7 @@
           .tarjeta.color-primario-claro.completa
             .p-4
               .h4 Amabilidad
-              p Amabilidad y cortesía, ser respetuoso de la necesidad de las personas, actuando con buena actitud y muy receptivo.
+              p Amabilidad y c  ortesía, ser respetuoso de la necesidad de las personas, actuando con buena actitud y muy receptivo.
         .tarjeta-avatar-c.mb-5
           .tarjeta-avatar-c__img
             img(src='@/assets/curso/img28.png', alt='AvatarTop')

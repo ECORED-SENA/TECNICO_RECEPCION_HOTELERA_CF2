@@ -33,13 +33,13 @@
           .h3.mb-2.p-3 Es el conjunto de actividades perfectamente diferenciadas entre sí, pero íntimamente relacionadas, que funcionan en forma armónica y coordinada con el propósito de responder a las exigencias de servicios que, en un destino, generan una corriente turística.
           span.p-3 - Cesar Ramírez Cavazza
 
-    p.mb-5 Este va de la mano con el conjunto de interacciones humanas, como transportes, hospedaje, diversiones, enseñanzas, derivados de los desplazamientos transitorios, temporales o de transeúntes de fuertes núcleos de población con propósitos tan diversos como son múltiples los deseos humanos y que abarcan gamas variadas de motivaciones.
+    p.mb-5 Este va de la mano con el conjunto de interacciones humanas, como transportes, hospedaje, diversiones, enseñanzas, derivados de los desplazamientos transitorios, temporales o de transeúntes de fuertes núcleos de población con propósitos tan diversos como los múltiples deseos humanos y que abarcan gamas variadas de motivaciones.
       br
       br
       | El servicio turístico comprende el conjunto de técnicas relativas a la transferencia y venta de bienes turísticos del productor al consumidor. Constituye política de entidades turísticas en relación con la oferta y la demanda, preparación del producto turístico para la venta, distribución del mismo, comercio y satisfacción óptima de necesidades de un segmento determinado de consumidores.
       br
       br
-      | El servicio turístico está directamente mandado a satisfacer la corriente turística, cual comprende personas con fines turísticos que se desplazan de un lugar a otro, constituyendo un caudal continuo con características especiales para la realización de actividades ajenas a la rutina, para así satisfacer la demanda turística en cualquier ámbito hotelero o no hotelero (Antonietti, 2017).
+      | El servicio turístico está directamente mandado a satisfacer la corriente turística, la cual comprende personas con fines turísticos que se desplazan de un lugar a otro, constituyendo un caudal continuo con características especiales para la realización de actividades ajenas a la rutina, para así satisfacer la demanda turística en cualquier ámbito hotelero o no hotelero (Antonietti, 2017).
 
     figure.mb-5
       img(src='@/assets/curso/img3.svg', alt='Texto que describa la imagen')
@@ -47,7 +47,7 @@
     #t_1_1.titulo-segundo
       h4 1.1. Sistema Turístico
 
-    p.mb-5 Para la prestación de servicios turísticos es necesario conocer el funcionamiento del sistema turístico, que se define como el conjunto de elementos interrelacionados entre sí que evolucionan de forma dinámica para configurar la naturaleza de la actividad turística, conformado por cinco subsistemas: Estructura turística (planta turística), Infraestructura turística, Superestructura turística, Oferta turística, Demanda turística.
+    p.mb-5 Para la prestación de servicios turísticos es necesario conocer el funcionamiento del sistema turístico, que se define como el conjunto de elementos interrelacionados entre sí que evolucionan de forma dinámica para configurar la naturaleza de la actividad turística, conformado por cinco subsistemas: estructura turística (planta turística), Infraestructura turística, Superestructura turística, Oferta turística, Demanda turística.
 
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-primario-claro.p-4(titulo='Estructura turística')

@@ -187,7 +187,7 @@ export default {
     {
       termino: 'Portafolios de Servicios',
       significado:
-        'documento que las empresas, organizaciones o trabajadores independientes entrega a sus clientes para informar sobre los servicios ofrecidos y sobre otros datos importantes.',
+        'documento que las empresas, organizaciones o trabajadores independientes entregan a sus clientes para informar sobre los servicios ofrecidos y sobre otros datos importantes.',
     },
     {
       termino: 'Prestador de servicios turísticos',
@@ -230,19 +230,18 @@ export default {
     {
       texto: 'FONTUR Colombia Co (2020) Glosario de terminología de Turismo',
       tipo: 'Sitio Web',
-      link: 'https://www.fontur.com.co/interactue/glosario/63',
+      link: 'https://fontur.com.co/es/glosario?q=es/glosario',
     },
     {
       texto:
         'Instituto Distrital de Turismo, ANATO – Asociación Colombiana de Agencias de Viajes (2006) Manual Diseño de productos Turísticos',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      descarga: '/downloads/MANUAL_DISENO_DE_PAQUETES_TURISTICOS.pdf',
     },
     {
       texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Documento',
-      link:
-        'http://www.bogotaturismo.gov.co/sites/default/files/MANUAL_DISENO_DE_PAQUETES_TURISTICOS.pdf',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=I4wj61hScUQ',
     },
     {
       texto: 'Ministerio de Desarrollo Económico. (1996). Ley 300 de 1996.',
@@ -273,20 +272,36 @@ export default {
           'Centro Industrial Del Diseño Y La Manufactura Regional Santander',
       },
       {
-        nombre: 'Sandra Isabel Suarez Delgado',
-        cargo: 'Experta',
-        centro: 'CENTRO DE COMERCIO Y SERVICIOS Regional Tolima',
+        nombre: 'Amparo Virginia Moreno Cantero',
+        cargo: 'Experto temático',
+        centro: 'Centro de Servicios y Gestión Empresarial',
+      },
+      {
+        nombre: 'Leidy Carolina Arias Aguirre',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología.',
       },
       {
         nombre: 'Gloria Esperanza Ortiz Russi',
-        cargo: 'Diseñador Instruccional ',
-        centro: 'Regional Distrito Capital',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Diseño y Metrología.',
       },
       {
-        nombre: 'Martha Isabel Martínez Vargas',
+        nombre: 'Harbey Castelblanco Muñoz',
+        cargo: 'Experto temático',
+        centro: 'Centro Nacional Colombo Alemán - Atlántico',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Revisora de estilo',
         centro:
-          'Centro Industrial Del Diseño Y La Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -307,15 +322,27 @@ export default {
           'Camilo Andrés Villamizar Lizcano',
           'Victor Raúl Cárdernas Cáceres',
           'Wilson Andres Arenales Cáceres',
-          'Yuly Andrea Rey Quiñonez',
+          '',
         ],
-        cargo: 'Diseño web y Producción Audiovisual',
+        cargo: 'Producción Audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Yuly Andrea Rey Quiñonez '],
+        cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: ['Camilo Andres Bolaño Rey '],
         cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Rafael Augusto Mantilla López'],
+        cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

@@ -34,7 +34,7 @@
 
     .row
       .col-lg-7
-        p.mb-5 Es un código alfanumérico, que asignan los diferentes sistemas de reservas (PMS), para lograr la identificación plena de la reserva y los detalles relativos a su estadía en el hotel (duración, tarifa, forma de pago). Los códigos de reserva son el identificador único de cada reserva, por eso es pertinente que aprenda a identificarlos, ya que todos los prestadores turísticos (aerolíneas, rentas de autos, espectáculos, restaurantes y hoteles) usan sus propios códigos.
+        p.mb-5 Es un código alfanumérico, que asignan los diferentes sistemas de reservas (PMS), para lograr la identificación plena de la reserva y los detalles relativos a su estadía en el hotel (duración, tarifa, forma de pago). Los códigos de reserva son el identificador único de cada reserva, por eso, es pertinente que aprenda a identificarlos, ya que todos los prestadores turísticos (aerolíneas, rentas de autos, espectáculos, restaurantes y hoteles) usan sus propios códigos.
           br
           br
           | Estos códigos se generan al momento de ingresar los datos al sistema y procesar la reserva y se envían al huésped por correo electrónico.

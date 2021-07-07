@@ -91,7 +91,7 @@
         p
           b Paquetes o Planes:
           br
-          | Los paquetes son una forma de comercializar productos hoteleros, para brindar a los clientes más servicios, por precios más atractivos. Se puede empaquetar con productos propios o de terceros. Ejemplo: Plan Noche de bodas, Paquete con Alimentación y tures incluidos.
+          | Los paquetes son una forma de comercializar productos hoteleros, para brindar a los clientes más servicios, por precios más atractivos. Se puede empaquetar con productos propios o de terceros. Ejemplo: Plan Noche de bodas, Paquete con Alimentación y tours incluidos.
     .tabla-a.color-acento-botones.mb-5
       .color-acento-contenido-3.text-white.p-2.text-center
         h4 ESTRUCTURA TARIFAS PUBLICAS HOTEL EJEMPLO
