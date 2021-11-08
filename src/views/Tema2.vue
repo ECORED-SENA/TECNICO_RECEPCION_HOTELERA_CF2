@@ -43,7 +43,7 @@
           | Esta fase de categorización deberá incluir un análisis de cada servicio identificado, indicando el componente de ajuste al portafolio de servicios, así como la recomendación de la categoría del servicio (Castro, 2018).
           br
           br
-          | Finalmente, se elaborará el Portafolio de servicios con al menos 10 servicios identificados, priorizados y categorizados respectivamente, en esta etapa se incluirá el nivel en detalle para cada servicio establecido, teniendo en cuenta aspectos preliminares a desarrollar para cada servicio en el portafolio.
+          | Finalmente, se elaborará el portafolio de servicios con al menos 10 servicios identificados, priorizados y categorizados respectivamente, en esta etapa se incluirá el nivel en detalle para cada servicio establecido, teniendo en cuenta aspectos preliminares a desarrollar para cada servicio en el portafolio.
       .col-lg-5
         figure.mb-3
           img(

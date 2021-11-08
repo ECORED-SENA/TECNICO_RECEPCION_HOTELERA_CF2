@@ -61,7 +61,7 @@
           .tarjeta.color-primario-claro.completa
             .p-4
               .h4 Amabilidad
-              p Amabilidad y c  ortesía, ser respetuoso de la necesidad de las personas, actuando con buena actitud y muy receptivo.
+              p Amabilidad y cortesía, ser respetuoso de la necesidad de las personas, actuando con buena actitud y muy receptivo.
         .tarjeta-avatar-c.mb-5
           .tarjeta-avatar-c__img
             img(src='@/assets/curso/img28.png', alt='AvatarTop')
@@ -104,7 +104,7 @@ export default {
       {
         titulo: 'Recibe el rooming',
         texto:
-          'Previsión de servicios y comunicación con los demás departamentos del hotel <br><br> Realiza reservas de habitaciones, se procede, atendiendo las peticiones de los clientes según sus preferencias y su histórico de estancias. <br><br> Recibe el rooming list que las agencias de viajes envían asegurándose que estos contengan la mayor cantidad de información posible y que ésta no varíe.',
+          'Previsión de servicios y comunicación con los demás departamentos del hotel <br><br> Realiza reservas de habitaciones, se procede, atendiendo las peticiones de los clientes según sus preferencias y su histórico de estancias. <br><br> Recibe el rooming list que las agencias de viajes envían asegurándose que estos contengan la mayor cantidad de información posible y que esta no varíe.',
         imagen: require('@/assets/curso/img23.jpg'),
       },
     ],

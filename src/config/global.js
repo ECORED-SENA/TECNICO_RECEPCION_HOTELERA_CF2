@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Gestión de reservas',
+    componenteFormativo: 'Gestión de reservas hoteleras',
     descripcionCurso:
       '¡Bienvenido al componente formativo 2 Gestión de Reservas Hoteleras! Este componente ha sido diseñado para que usted conozca los servicios turísticos e interactúe dentro del sistema turístico, identificando los elementos que lo integran y la importancia que tienen en el desarrollo de la industria hotelera. Contiene temáticas que le proporcionarán los conocimientos necesarios para el desarrollo de habilidades, destrezas y capacidades en cuanto a la prestación de servicios turísticos, en el área de recepción y reservas de un hotel.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -31,6 +31,18 @@ export default {
             numero: '1.2',
             titulo: 'Producto turístico',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Características',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Tipos',
+            hash: 't_1_4',
           },
         ],
       },
@@ -121,20 +133,13 @@ export default {
         'http://prepacihuatlan.sems.udg.mx/sites/default/files/planificaciondelespacioturisticorobertoc.boullon.pdf',
     },
     {
-      referencia:
-        'Fondo Nacional de Turismo - FONTUR. República de Colombia. Bogotá D.C. (2020). FONTUR Colombia Co.',
-      link: 'https://fontur.com.co/es/glosario?q=es/glosario',
-    },
-    {
-      referencia:
-        'Fondo Nacional de Turismo -FONTUR. (2003).(AyMsoft, Productor).',
+      referencia: 'Fondo Nacional de Turismo. (6 de 4 de 2021). FONTUR.',
       link: 'https://fontur.com.co/es/glosario?q=es/glosario',
     },
     {
       referencia:
         'Instituto Distrital de Turismo. ANATO Asociación Colombiana de Agencias de Viajes y Turismo. (2007).',
-      link:
-        'http://www.bogotaturismo.gov.co/sites/default/files/MANUAL_DISENO_DE_PAQUETES_TURISTICOS.pdf',
+      link: 'https://anato.org/',
     },
     {
       referencia:
@@ -247,7 +252,7 @@ export default {
       texto: 'Ministerio de Desarrollo Económico. (1996). Ley 300 de 1996.',
       tipo: 'PDF',
       link:
-        'https://www.minambiente.gov.co/images/normativa/leyes/1996/ley_0300_1996.pdf ',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=8634#:~:text=Formulaci%C3%B3n%20de%20la%20pol%C3%ADtica%20y,las%20regiones%20y%20entidades%20territoriales.',
     },
     {
       texto:
@@ -348,6 +353,16 @@ export default {
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: ['Validación de recursos'],
+        centro: 'Centro de comercio y servicios Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
+        cargo: ['Validación de recursos'],
+        centro: 'Centro de comercio y servicios Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: ['Validación de recursos'],

@@ -47,7 +47,7 @@
     #t_1_1.titulo-segundo
       h4 1.1. Sistema Turístico
 
-    p.mb-5 Para la prestación de servicios turísticos es necesario conocer el funcionamiento del sistema turístico, que se define como el conjunto de elementos interrelacionados entre sí que evolucionan de forma dinámica para configurar la naturaleza de la actividad turística, conformado por cinco subsistemas: estructura turística (planta turística), Infraestructura turística, Superestructura turística, Oferta turística, Demanda turística.
+    p.mb-5 Para la prestación de servicios turísticos es necesario conocer el funcionamiento del sistema turístico, que se define como el conjunto de elementos interrelacionados entre sí que evolucionan de forma dinámica para configurar la naturaleza de la actividad turística, conformado por cinco subsistemas: estructura turística (planta turística), infraestructura turística, superestructura turística, oferta turística, demanda turística.
 
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-primario-claro.p-4(titulo='Estructura turística')
@@ -178,8 +178,40 @@
       br
       br
       | Entre las características propias que tienen los servicios turísticos frente a otros productos, se pueden identificar las siguientes:
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        PasosA.color-acento-contenido.mb-5.px-5(tipo='n')
+          div
+            h4 Intangibilidad
+            p Es la característica que distingue a los productos, de los servicios y supone tanto un elemento palpable como mental, conlleva a que el consumidor tenga un elevado grado de incertidumbre durante el proceso de compra.
+          div
+            h4 Variabilidad
+            p Es ofrecido y prestado por personas distintas y en circunstancias diferentes y es difícil evaluar la calidad antes de la compra, ya que las percepciones varían según las personas.
+          div
+            h4 Caducidad
+            p Son susceptibles de perecer y no se pueden almacenar.
+          div
+            h4 Temporalidad
+            p La compra de servicios solo da el derecho de ser usados en un tiempo y lugar determinado.
+          div
+            h4 Inseparabilidad
+            p La creación y realización del servicio puede ocurrir al mismo tiempo que su consumo (in situ).
+          div
+            h4 No devolución
+            p Los servicios una vez utilizados no se pueden devolver.
+          div
+            h4 Interdependencia
+            p El número de empresas que intervienen en la prestación del servicio hacen que la satisfacción del turista no dependa de una sola empresa sino del conjunto de prestadores.
+          div
+            h4 Estacionalidad
+            p Hace alusión a la concentración de la demanda turística en ciertos periodos del año. Ejemplo: temporadas, vacaciones, fines de semana.
+          div
+            h4 Intransferibilidad
+            p Una vez recibido no se puede ceder a otra persona el derecho sobre un servicio ya prestado.
+          div
+            h4 Servucción
+            p Significa el proceso de elaboración de un servicio, la organización de los elementos físicos y humanos en la relación cliente – empresas necesarias para la prestación de un servicio, cuantas características esenciales y niveles de calidad han sido determinadas (Ruano Pavón, 2012)
 
-    PasosA.color-primario.mb-5.px-5(tipo='n', :datos='datosPasosA')
 
     #t_1_4.titulo-segundo
       h4 1.4. Tipos
